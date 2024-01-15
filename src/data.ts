@@ -24,13 +24,13 @@ export const menu = [
             {
                 id:1,
                 title:"Vehicles",
-                url:"/",
+                url:"/allvehicles",
                 icon:"/truck.svg",
             },
             {
                 id:2,
                 title:"Installation",
-                url:"/",
+                url:"/installations",
                 icon:"/install.svg",
             },
         ],
