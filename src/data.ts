@@ -42,21 +42,9 @@ export const menu = [
             {
                 id:1,
                 title:"Devices",
-                url:"/",
+                url:"/devices",
                 icon:"/device.svg",
-            },
-            {
-                id:2,
-                title:"Devices Type",
-                url:"/",
-                icon:"/install.svg",
-            },
-            {
-                id:2,
-                title:"Sim Management",
-                url:"/",
-                icon:"/sim.svg",
-            },
+            }
         ],
     },
     {
@@ -73,25 +61,19 @@ export const menu = [
     },
     {
         id:5,
-        title:"Devices",
+        title:"Subscription",
         listItems:[
             {
                 id:1,
-                title:"Devices",
-                url:"/",
+                title:"Manage Subscription",
+                url:"/managesubscription",
                 icon:"/device.svg",
             },
             {
                 id:2,
-                title:"Devices Type",
-                url:"/",
+                title:"Order Subscription",
+                url:"/ordersubscription",
                 icon:"/install.svg",
-            },
-            {
-                id:2,
-                title:"Sim Management",
-                url:"/",
-                icon:"/sim.svg",
             },
         ],
     },
