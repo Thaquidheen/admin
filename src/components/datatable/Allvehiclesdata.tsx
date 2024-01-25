@@ -1,5 +1,6 @@
+
 import './allvehicledata.scss';
-import { DataGrid, GridColDef,  } from '@mui/x-data-grid';
+import { DataGrid, GridColDef, GridToolbar,  } from '@mui/x-data-grid';
 
 const Allvehiclesdata = () => {
 
@@ -139,10 +140,11 @@ const Allvehiclesdata = () => {
       ];
       
   return (
-    <div className="installdata"  style={{ height: 700, width: '100%' }}>
+    <div className="allvehicledata"  style={{ height: 700, width: '100%' }}>
          <DataGrid
          className='datagrid'
         rows={rows}
+        
         columns={columns}
         initialState={{
           pagination: {
@@ -151,9 +153,18 @@ const Allvehiclesdata = () => {
             },
           },
         }}
+        slots={{toolbar:GridToolbar}}
+        slotProps={{
+          toolbar: {
+            showQuickFilter: true,
+          },
+        }}
         pageSizeOptions={[5]}
         checkboxSelection
         disableRowSelectionOnClick
+        disableColumnFilter
+        disableColumnSelector
+        disableDensitySelector
       />
     </div>
   )

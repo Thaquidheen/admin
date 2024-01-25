@@ -1,5 +1,11 @@
 .allvehicledata{
     .datagrid{
-        background-color: white;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        .MuiDataGrid-toolbarContainer{
+            flex-direction: row-reverse;
+        }
+        
     }
+  
 }

@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+.addvehicle{
+
+    .forms{
+        display: flex;
+
+        max-width: 500px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .item{
+            display: flex;
+          flex-direction: column;
+          gap: 10px;
+          margin-bottom: 20px;
+       
+          label{
+            font-size: 14px;
+   
+          }
+          input{
+            padding: 10px;
+            background-color: transparent;
+           
+            outline: none;
+            border: 1px solid $soft-color;
+            border-radius: 3px;
+          }
+            
+        }
+    }
+    
+}

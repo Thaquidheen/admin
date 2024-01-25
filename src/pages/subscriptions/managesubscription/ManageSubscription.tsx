@@ -1,3 +1,4 @@
+import Manage from '../../../components/datatable/managaedata/Manage'
 import Navbar from '../../../components/navbar/Navbar'
 import './managesubscription.scss'
 
@@ -12,6 +13,7 @@ const ManageSubscription = () => {
             <button>Bulk Upload </button>
             </div>
         </div>
+        <Manage/>
     </div>
   )
 }

@@ -1,3 +1,4 @@
+import Order from '../../../components/datatable/orderdata/Order'
 import Navbar from '../../../components/navbar/Navbar'
 import './ordersubscription.scss'
 
@@ -12,6 +13,7 @@ const Ordersubscription = () => {
             <button>Bulk Upload </button>
             </div>
         </div>
+        <Order/>
     </div>
   )
 }
