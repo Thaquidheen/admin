@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .allvehicles{
     margin-left: 250px;
   .info{
@@ -5,5 +7,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .btnhead{
+    padding: 10px;
+    color: $dark-color;
+    border: none;
+    border-radius: 5px; 
+    
   }
 }

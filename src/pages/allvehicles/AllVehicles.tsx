@@ -30,8 +30,8 @@ const AllVehicles = () => {
         <div className="info">
             <h1>All Vehicles</h1>
             <div>
-            <button className='mainbtn'>Bulk Upload</button>
-            <button onClick={handleOpen} className=''>New Vehicle</button>
+            {/* <button className='mainbtn'>Bulk Upload</button> */}
+            <button onClick={handleOpen} className='btnhead'>New Vehicle</button>
             </div>
         </div>
         <Allvehiclesdata/>

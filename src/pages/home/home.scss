@@ -6,8 +6,8 @@ margin-left: 250px;
  gap: 20px;
  grid-template-columns: repeat(4,1fr);
  grid-auto-rows: minmax(180px,auto);
- height: 92.1vh;
- width: 100%;
+ height: 100vh;
+//  width: 100%;
 
     .box{
         padding: 20px;
@@ -18,12 +18,75 @@ margin-left: 250px;
         grid-column: span 1;
         grid-row: span 3;
     }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: max-content;
+       .tasub{
+        display: flex;
+        align-items: center;
+        justify-content: space-around ;
+        gap: 10px;
+    
+        .css-10vg0a6-MuiResponsiveChart-container{
+            width: 200px;
+            height: 200px;
+            color: yellow;
+
+            border-radius: 5px;
+        }
+        .cardmain{
+            border: 1px solid $soft-bg;
+            background-color: $dark-bg;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            height: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px; 
+        }
+       }
+    }
     .box4{
         grid-column: span 1;
         grid-row: span 3;
+    }
+    .box5{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: max-content;
+       .tasub{
+        display: flex;
+        align-items: center;
+        justify-content: space-around ;
+        gap: 10px;
+    
+        .css-10vg0a6-MuiResponsiveChart-container{
+            width: 200px;
+            height: 200px;
+            color: yellow;
+
+            border-radius: 5px;
+        }
+        .cardmain{
+            border: 1px solid $soft-bg;
+            background-color: $dark-bg;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            height: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px; 
+        }
+       }
     }
     .box7{
         grid-column:span 2;
         grid-row: span 2;
     }
 }
+
